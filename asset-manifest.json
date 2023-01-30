@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/Fresk-Front-Deploy/static/css/main.7c6f793f.css",
-    "main.js": "/Fresk-Front-Deploy/static/js/main.d9bea07f.js",
-    "static/js/787.cda612ba.chunk.js": "/Fresk-Front-Deploy/static/js/787.cda612ba.chunk.js",
-    "static/media/kurs.jpg": "/Fresk-Front-Deploy/static/media/kurs.6cb8fd3dc6adfa7104d7.jpg",
-    "static/media/bar.jpg": "/Fresk-Front-Deploy/static/media/bar.1d52865c6aee5320bdcf.jpg",
-    "static/media/news.jpg": "/Fresk-Front-Deploy/static/media/news.6b4adb04ae956431f951.jpg",
-    "static/media/sala.jpg": "/Fresk-Front-Deploy/static/media/sala.d3705460fa5b33ee8b54.jpg",
-    "static/media/eu.jpg": "/Fresk-Front-Deploy/static/media/eu.3b26dd8ad27d9006d41e.jpg",
-    "static/media/zlobek.jpg": "/Fresk-Front-Deploy/static/media/zlobek.d11c6162800acb6e9c15.jpg",
-    "static/media/dron.jpg": "/Fresk-Front-Deploy/static/media/dron.e817d2b0f2f4af3ea3d5.jpg",
-    "static/media/Magda.png": "/Fresk-Front-Deploy/static/media/Magda.205b05668943426c8cae.png",
-    "static/media/Marcin.png": "/Fresk-Front-Deploy/static/media/Marcin.5a790ad657aaa0d31386.png",
-    "static/media/Hania.png": "/Fresk-Front-Deploy/static/media/Hania.f9f5fb331109e28843de.png",
-    "static/media/barista.jpg": "/Fresk-Front-Deploy/static/media/barista.f2239c4a532a933fc242.jpg",
-    "static/media/fresk-logo-beznapi.png": "/Fresk-Front-Deploy/static/media/fresk-logo-beznapi.6123ecc83c71902cdf99.png",
-    "static/media/fresk-logo.png": "/Fresk-Front-Deploy/static/media/fresk-logo.f0f5028adab135d0fe4c.png",
-    "static/media/dotacje.png": "/Fresk-Front-Deploy/static/media/dotacje.9a742ac8251fb56a5153.png",
-    "static/media/rece.png": "/Fresk-Front-Deploy/static/media/rece.65bcad809362961ab098.png",
-    "index.html": "/Fresk-Front-Deploy/index.html",
-    "main.7c6f793f.css.map": "/Fresk-Front-Deploy/static/css/main.7c6f793f.css.map",
-    "main.d9bea07f.js.map": "/Fresk-Front-Deploy/static/js/main.d9bea07f.js.map",
-    "787.cda612ba.chunk.js.map": "/Fresk-Front-Deploy/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/static/css/main.7c6f793f.css",
+    "main.js": "/static/js/main.5b8fbe4f.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/kurs.jpg": "/static/media/kurs.6cb8fd3dc6adfa7104d7.jpg",
+    "static/media/bar.jpg": "/static/media/bar.1d52865c6aee5320bdcf.jpg",
+    "static/media/news.jpg": "/static/media/news.6b4adb04ae956431f951.jpg",
+    "static/media/sala.jpg": "/static/media/sala.d3705460fa5b33ee8b54.jpg",
+    "static/media/eu.jpg": "/static/media/eu.3b26dd8ad27d9006d41e.jpg",
+    "static/media/zlobek.jpg": "/static/media/zlobek.d11c6162800acb6e9c15.jpg",
+    "static/media/dron.jpg": "/static/media/dron.e817d2b0f2f4af3ea3d5.jpg",
+    "static/media/Magda.png": "/static/media/Magda.205b05668943426c8cae.png",
+    "static/media/Marcin.png": "/static/media/Marcin.5a790ad657aaa0d31386.png",
+    "static/media/Hania.png": "/static/media/Hania.f9f5fb331109e28843de.png",
+    "static/media/barista.jpg": "/static/media/barista.f2239c4a532a933fc242.jpg",
+    "static/media/fresk-logo-beznapi.png": "/static/media/fresk-logo-beznapi.6123ecc83c71902cdf99.png",
+    "static/media/fresk-logo.png": "/static/media/fresk-logo.f0f5028adab135d0fe4c.png",
+    "static/media/dotacje.png": "/static/media/dotacje.9a742ac8251fb56a5153.png",
+    "static/media/rece.png": "/static/media/rece.65bcad809362961ab098.png",
+    "index.html": "/index.html",
+    "main.7c6f793f.css.map": "/static/css/main.7c6f793f.css.map",
+    "main.5b8fbe4f.js.map": "/static/js/main.5b8fbe4f.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c6f793f.css",
-    "static/js/main.d9bea07f.js"
+    "static/js/main.5b8fbe4f.js"
   ]
 }
