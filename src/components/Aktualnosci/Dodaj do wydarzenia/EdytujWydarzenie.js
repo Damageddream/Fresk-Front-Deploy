@@ -87,7 +87,7 @@ const EdytujWydarzenie = (props) => {
 
     axios({
       method: 'PATCH',
-      url: `/api/aktualnoscis/${props.wydarzenie}/`,
+      url: `http://3.11.31.49/api/aktualnoscis/${props.wydarzenie}/`,
       data: formForm,
       headers: {
         "Content-Type": "multipart/form-data"

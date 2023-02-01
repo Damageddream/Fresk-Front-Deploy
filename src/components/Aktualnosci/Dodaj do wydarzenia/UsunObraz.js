@@ -19,7 +19,7 @@ const DeleteImage = (props) => {
         setIsLoading(true);
         axios({
             method: 'DELETE',
-            url: `/api/photos/${props.image}/`,
+            url: `http://3.11.31.49/api/photos/${props.image}/`,
         })
         setIsLoading(false);
     }

@@ -38,7 +38,7 @@ const Galeria = (props) => {
     setIsLoading(true);
     axios({
       method: "GET",
-      url: "/api/photos/",
+      url: "http://3.11.31.49/api/photos/",
     })
       .then((response) => {
         return response.data;

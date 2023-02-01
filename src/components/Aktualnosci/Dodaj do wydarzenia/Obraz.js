@@ -43,7 +43,7 @@ function Obraz(props) {
     
       axios({
         method: "POST",
-        url: "/api/photos/",
+        url: "http://3.11.31.49/api/photos/",
         data: formForm,
         headers: {
             "Content-Type": "multipart/form-data",

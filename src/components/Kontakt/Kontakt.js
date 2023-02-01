@@ -69,7 +69,7 @@ const Kontakt = () => {
 
     axios({
       method: 'POST',
-      url: '/api/contact/',
+      url: 'http://3.11.31.49/api/contact/',
       data: formForm,
       headers: {
         "Content-Type": "application/json"

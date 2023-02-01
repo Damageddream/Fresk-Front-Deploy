@@ -36,7 +36,7 @@ const DownloadFile = (props) => {
     setIsLoading(true);
     axios({
       method: "GET",
-      url: "/api/files/",
+      url: "http://3.11.31.49/api/files/",
     })
       .then((response) => {
         const data = response.data;

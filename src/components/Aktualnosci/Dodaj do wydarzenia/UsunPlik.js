@@ -17,7 +17,7 @@ const DeleteFile = (props) => {
         setIsLoading(true);
         axios({
             method: 'DELETE',
-            url: `/api/files/${props.file}/`,
+            url: `http://3.11.31.49/api/files/${props.file}/`,
         }).then(() => {
             props.getFiles()
             setIsLoading(false)

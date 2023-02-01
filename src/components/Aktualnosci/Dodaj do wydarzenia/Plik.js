@@ -46,7 +46,7 @@ function Plik(props) {
     event.preventDefault()
     axios({
       method: "POST",
-      url: "/api/files/",
+      url: "http://3.11.31.49/api/files/",
       data: formForm,
       headers: {
         "Content-Type": "multipart/form-data",

@@ -35,7 +35,7 @@ function WyszukaneAktualnosci() {
     setIsLoading(true);
     axios({
       method: "GET",
-      url: "/api/aktualnoscis/",
+      url: "http://3.11.31.49/api/aktualnoscis/",
     })
       .then((response) => {
         const data = response.data;

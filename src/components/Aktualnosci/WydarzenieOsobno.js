@@ -59,7 +59,7 @@ const WydarzenieOsobno = () => {
     setIsLoading(true);
     axios({
       method: "GET",
-      url: `/api/aktualnoscis/${location.state}/`,
+      url: `http://3.11.31.49/api/aktualnoscis/${location.state}/`,
     })
       .then((response) => {
         const data = response.data;
