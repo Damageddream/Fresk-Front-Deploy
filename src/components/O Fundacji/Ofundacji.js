@@ -8,17 +8,30 @@ import "../../sass/components/logo.css";
 import Hania from '../../images/Hania.png';
 import Magda from '../../images/Magda.png';
 import Marcin from '../../images/Marcin.png';
+import useWindowSize from '../Utilities/useWindowsSize';
+import logo from '../../images/fresk-logo-beznapi.png'
 
 
 const Ofundacji = () => {
 
+  // variables for window size change
+  const [width, height] = useWindowSize()
 
   // data for jumbotron on top
   const opis = {
     title: "Fundacja Rozwoju Edukacji i Społecznej Kreatywności",
     photo: fundacja,
-
+    photo2: logo,
   };
+
+  //change picture depends on window size
+  let picture = ''
+  if (width < '471') {
+    picture = logo
+  }
+  else {
+    picture = fundacja
+  }
 
   // workers data for cards
   const Hanna = {
@@ -72,6 +85,8 @@ const Ofundacji = () => {
     setIsActivez(false);
     setIsActiveh(false);
   };
+
+
   return (
     <div>
       <div className='logoContainer'>
@@ -80,13 +95,14 @@ const Ofundacji = () => {
           className="center bg-image"
           style={{
             backgroundImage:
-              `url(${opis.photo})`,
+              `url(${picture})`,
           }}
         >
+        <div>Width: {width}</div><div>Height: {height}</div>
         </div>
       </div>
       <Row className='justify-content-center'>
-        <Col className="mt-5 ms-5">
+        <Col className="mt-5 ms-5 me-5">
           <ListGroup as="ul">
             <ListGroup.Item
               style={{ cursor: 'pointer' }}
