@@ -17,20 +17,17 @@ const Ofundacji = () => {
   // variables for window size change
   const [width, height] = useWindowSize()
 
-  // data for jumbotron on top
-  const opis = {
-    title: "Fundacja Rozwoju Edukacji i Społecznej Kreatywności",
-    photo: fundacja,
-    photo2: logo,
-  };
 
   //change picture depends on window size
   let picture = ''
+  let id = ''
   if (width < '471') {
     picture = logo
+    id = 'logo'
   }
   else {
     picture = fundacja
+    id = 'freskPhoto'
   }
 
   // workers data for cards
@@ -91,14 +88,13 @@ const Ofundacji = () => {
     <div>
       <div className='logoContainer'>
         <div
-          id='freskPhoto'
+          id={id}
           className="center bg-image"
           style={{
             backgroundImage:
               `url(${picture})`,
           }}
         >
-        <div>Width: {width}</div><div>Height: {height}</div>
         </div>
       </div>
       <Row className='justify-content-center'>

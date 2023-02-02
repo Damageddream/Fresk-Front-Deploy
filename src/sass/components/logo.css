@@ -7,6 +7,12 @@
   position: relative;
 }
 
+#logo {
+  background-position: center center;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
 .logoContainer {
   display: flex;
   height: 300px;
