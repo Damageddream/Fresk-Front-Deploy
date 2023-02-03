@@ -2,6 +2,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Jumbotron from "../Jumbotron";
 import sala from "../../images/sala.jpg";
+import GaleriaSali from "./GaleriaSali";
 
 const Uslugi = () => {
   // data for jumbotron
@@ -24,11 +25,7 @@ const Uslugi = () => {
           <p>Koszt 70 zł na godzinę. </p>
         </Col>
         <Col className='m-5'>
-          Zdjecia sali
-          <ul>
-            <li>zdjecie</li>
-            <li>zdjecie</li>
-          </ul>
+        <GaleriaSali />
         </Col>
       </Row>
     </>

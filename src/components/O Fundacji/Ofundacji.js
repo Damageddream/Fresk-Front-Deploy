@@ -23,7 +23,7 @@ const Ofundacji = () => {
   let id = ''
   if (width < '471') {
     picture = logo
-    id = 'logo'
+    id = 'logos'
   }
   else {
     picture = fundacja
@@ -144,36 +144,141 @@ const Ofundacji = () => {
         </Col>
         <Col xs={8} className="mt-5">
           <div className='text-center'>
-            {isActiveo && <h4>FUNDACJA ROZWOJU EDUKACJI I SPOŁECZNEJ KREATYWNOŚCI</h4>}
+            {isActiveo && <h2 className='text-center mb-4'>FUNDACJA ROZWOJU EDUKACJI I SPOŁECZNEJ KREATYWNOŚCI</h2>}
           </div>
           <div>
-            {isActiveo && <p className='text-center'>Nullam at arcu viverra, gravida urna vitae, posuere urna.
-              In hac habitasse platea dictumst. Maecenas sit amet nisi et libero consequat finibus.
-              Maecenas quam erat, efficitur vel aliquam at, finibus ut neque.
-              Vivamus in urna accumsan, semper metus ac, sollicitudin ligula.
-              Phasellus sodales eget urna quis gravida. Praesent id ligula quam. Aenean commodo eu orci sit amet sollicitudin.
-              Suspendisse potenti. Integer eu lectus bibendum, consequat nisl ut, rhoncus purus.
-              Vivamus erat magna, pellentesque eget augue a, pharetra laoreet leo.
-              Maecenas eu tellus magna. Vestibulum ut eros vel est accumsan finibus.
-              Aliquam tincidunt dignissim leo, laoreet blandit orci pulvinar a.
-              Vivamus dapibus gravida lectus, pulvinar egestas turpis mollis at.
-              Fusce iaculis a sem non bibendum.</p>}
+            {isActiveo && <p>
+              <h4 className='text-center mb-3'>Celem działania Fundacji jest: </h4>
+              <ol className='text-left'>
+                <li className='mb-2'>Organizowanie działalności edukacyjnej, kulturalnej i sportowej na rzecz podopiecznych Fundacji.</li>
+                <li className='mb-2'>Niesienie pomocy osobom niepełnosprawnym oraz uczniom o specjalnych potrzebach edukacyjnych i ich rodzinom.</li>
+                <li className='mb-2'>Rozwijanie form integracji społecznej oraz aktywizacji zawodowej osób niepełnosprawnych.</li>
+                <li className='mb-2'>Podtrzymywanie tradycji narodowej, pielęgnowania polskości oraz rozwoju świadomości narodowej, obywatelskiej i kulturowej.</li>
+                <li className='mb-2'>Działania na rzecz wzrostu udziału turystyki w gospodarce Polski, zwiększenie atrakcyjności oferty turystycznej naszego kraju. </li>
+                <li className='mb-2'>Wzmocnienie pozycji polskich regionów w europejskich sieciach przyrodniczych poprzez poprawę lub zachowanie dobrego stanu środowiska i zapobieganie jego degradacji.</li>
+                <li className='mb-2'>Upowszechnianie kultury fizycznej i sportu oraz promowanie zdrowia i zdrowego stylu życia.</li>
+                <li className='mb-2'>Udzielanie pomocy społecznej, w tym pomocy rodzinom i osobom w trudnej sytuacji życiowej oraz wyrównywania szans tych rodzin i osób.</li>
+                <li className='mb-2'>Rozwój krajoznawstwa oraz organizowanie wypoczynku dzieci i młodzieży oraz osób dorosłych</li>
+                <li className='mb-2'>Wspieranie ratownictwa i ochrony ludności, oraz niesienie pomocy ofiarom katastrof, klęsk żywiołowych, konfliktów zbrojnych i wojen w kraju i za granicą.</li>
+                <li className='mb-2'>Praca w sferze edukacji nieformalnej oraz nauka innowacyjnych metod kształcenia i doskonalenie umiejętności interpersonalnych wśród społeczeństwa polskiego, zwłaszcza dzieci i młodzieży, osób w wieku zaawansowanym, oraz pomoc osobom zagrożonym wykluczeniem społecznym.</li>
+                <li className='mb-2'>Wspieranie edukacyjnej, społecznej i zawodowej aktywności obywateli, w tym między innymi takich grup społecznych jak: osoby niepełnosprawne, dzieci, kobiety, młodzież oraz inne grupy społeczne wymagające wsparcia.</li>
+                <li className='mb-2'>Propagowanie, wśród społeczeństwa polskiego, wiedzy o prawie polskim i europejskim oraz o prawach człowieka, a także wiedzy o współczesnej Europie, w szczególności zaś o procesie integracji europejskiej.</li>
+                <li className='mb-2'>Propagowanie wiedzy i kształtowanie umiejętności społeczeństwa polskiego, w zakresie korzystania ze środków Unii Europejskiej i innych instytucji grantodawczych.</li>
+                <li className='mb-2'>Przeciwdziałanie zjawisku ksenofobii i dyskryminacji ze względu na wiek, płeć, rasę, narodowość, status społeczny i inne przyczyny</li>
+                <li className='mb-2'>Podejmowanie działań na rzecz rozwoju obszarów wiejskich.</li>
+                <li className='mb-2'>Pomoc organizacjom pozarządowym w realizacji ich celów statutowych.</li>
+              </ol>
+   
+              </p>}
           </div>
-          <div className='text-center'>
-            {isActiveh && <h4>HISTORIA</h4>}
+          <div className='text-center mb-5'>
+            {isActiveh && <h2>HISTORIA</h2>}
           </div>
           <div>
-            {isActiveh && <p className='text-center'>Nullam at arcu viverra, gravida urna vitae, posuere urna.
-              In hac habitasse platea dictumst. Maecenas sit amet nisi et libero consequat finibus.
-              Maecenas quam erat, efficitur vel aliquam at, finibus ut neque.
-              Vivamus in urna accumsan, semper metus ac, sollicitudin ligula.
-              Phasellus sodales eget urna quis gravida. Praesent id ligula quam. Aenean commodo eu orci sit amet sollicitudin.
-              Suspendisse potenti. Integer eu lectus bibendum, consequat nisl ut, rhoncus purus.
-              Vivamus erat magna, pellentesque eget augue a, pharetra laoreet leo.
-              Maecenas eu tellus magna. Vestibulum ut eros vel est accumsan finibus.
-              Aliquam tincidunt dignissim leo, laoreet blandit orci pulvinar a.
-              Vivamus dapibus gravida lectus, pulvinar egestas turpis mollis at.
-              Fusce iaculis a sem non bibendum.</p>}
+            {isActiveh && <p className='text-left'>
+              <p>2019 r. był pierwszym rokiem naszej działalności, poświęciliśmy go głównie na organizację i pozyskiwanie partnerów i kontrahentów. Udało nam się jednak pomóc przy realizacji trzech projektów:</p>
+              <ol>
+                <li className='mb-1'>
+                	Program powszechnej nauki pływania: "Umiem Pływać" – projekt skupiający się na umożliwieniu uczniom okolicznych szkół uczęszczania na zajęcia z pływania.
+                </li>
+                <li className='mb-1'>
+                "Pobudzenie aktywności lokalnej w gminie nowinka i powiecie sejneńskim"
+                </li>
+                <li className='mb-1'>
+                "Pobudzenie aktywności lokalnej w powiecie suwalskim"
+                </li>
+              </ol>
+              <p>2020 r. był drugim rokiem naszej działalności, poświęciliśmy go na realizację celów statutowych.  Wspólnie z partnerami realizowaliśmy następujące działania projektowe:</p>
+              <ol>
+                <li className='mb-1'>
+                Przeprowadzenie szkoleń w ramach projektu usług kształcenia „Smartfon”
+                </li>
+                <li className='mb-1'>
+                Pobudzenie aktywności lokalnej w gminie nowinka i powiecie sejneńskim" – koordynowaliśmy realizację doradztwa i szkoleń w projekcie.
+                </li>
+                <li className='mb-1'>
+                Pobudzenie aktywności lokalnej w powiecie suwalskim" " – koordynowaliśmy realizację doradztwa i szkoleń w projekcie.
+                </li>
+                <li className='mb-1'>
+                Wspieraliśmy osoby fizyczne będące w szczególnej sytuacji życiowej dofinansowując możliwość uczestnictwa tych osób w szkoleniach w ramach projektów w których te osoby uczestniczyły. 
+                </li>
+                <li className='mb-1'>
+                W ramach projektu „AZYMUT na kompetencje” organizowaliśmy szkolenia z zakresu:
+                <ul>
+                  <li>
+                  Pracy na stanowisku administracyjno-biurowym
+                  </li>
+                  <li>
+                  Obsługi komputera w zakresie programów biurowych (MS WORD, EXCEL, POWERPOINT)
+                  </li>
+                  <li>
+                  Obsługi komputera w zakresie obróbki filmów
+                  </li>
+                  <li>
+                  Organizatora turystyki wraz ze szkoleniem obsługi dronów VLOS
+                  </li>
+                </ul>
+                </li>
+                <li className='mb-1'>
+                W ramach projektu "Wsparcie zawodowe skuteczną integracją" rozpoczęliśmy przeprowadzanie kursów zawodowych dla 48 osób oraz w ramach bliźniaczego projektu podjęliśmy te same działania w celu przeszkolenia 47 osób.
+                </li>
+                <li className='mb-1'>
+                Rozpoczęliśmy organizację zajęć w ramach projektu „Pobudzenie aktywności lokalnej – rozwój lokalnego rzemiosła” w obszarze powiatów: augustowski, gminy Lipsk, Sztabin Powiat sokólski, gminy: Suchowola, Dąbrowa Białostocka, Nowy Dwór, Janów, Korycin
+                </li>
+                <li className='mb-1'>
+                Rozpoczęliśmy organizację zajęć w ramach projektu „Pobudzenie aktywności lokalnej – powrót do tradycji w gastronomii i rzemiośle” w obszarze powiatów: augustowski, gminy Lipsk, Sztabin Powiat moniecki, gminy: Goniądz, Jaświły, Trzcianne, Mońki
+                </li>
+              </ol>
+              <p>Rozpoczęliśmy organizację zajęć w ramach projektu „Lokalna aktywizacja – powrót do tradycji w gastronomii i rzemiośle” w obszarze powiatów: grajewski, gminy Wąsosz, Radziłów, Szczuczyn i Powiat łomżyński, gminy: Przytuły, Jedwabne.</p>
+              <p>2021 r. był trzecim rokiem naszej działalności, poświęciliśmy go na realizację celów statutowych.  Wspólnie z partnerami realizowaliśmy następujące działania projektowe</p>
+              <ol>
+                <li className='mb-1'>
+                Kontynuowaliśmy i zakończyliśmy organizację i przeprowadzenie kursów zawodowych dla 47 osób w ramach projektu „Aktywna Integracja Inspiracją do Działania"
+                </li>
+                <li className='mb-1'>
+                Kontynuowaliśmy i zakończyliśmy organizację i przeprowadzenie kursów zawodowych dla 48 osób w ramach projektu „Wsparcie Zawodowe Skuteczną Integracją"
+                </li>
+                <li className='mb-1'>
+                W ramach projektu „Drewno woda i przygoda” organizowaliśmy i przeprowadzaliśmy kurs Event Manager dla 30 osób w którego zakres wchodziło:
+                <ul>
+                  <li>
+                  Kurs lotów dronem
+                  </li>
+                  <li>
+                  Kurs lotów dronem
+                  </li>
+                  <li>
+                  Kurs lotów dronem
+                  </li>
+                </ul>
+                </li>
+                <li>
+                W ramach projektu „Stawiamy na Turystykę Warmii i Mazur”, rozpoczęliśmy organizację i przeprowadzanie kursów:
+                <ul>
+                  <li>
+                  W ramach projektu „Stawiamy na Turystykę Warmii i Mazur”, rozpoczęliśmy organizację i przeprowadzanie kursów
+                  <ul>
+                    <li>
+                    Kurs lotów dronem
+                    </li>
+                    <li>
+                    Kurs lotów dronem
+                    </li>
+                    <li>
+                    Kurs event manager
+                    </li>
+                  </ul>
+                  </li>
+                  <li>
+                  Kurs event manager
+                  </li>
+                  <li>
+                  Kurs Baristyczny dla 84 osób
+                  </li>
+                </ul>
+                </li>
+              </ol>
+             </p>}
           </div>
           {isActiver &&
             <Col className='d-flex justify-content-center'>

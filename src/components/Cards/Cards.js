@@ -16,13 +16,13 @@ const Cards = () => {
     },
     {
       id: "k2",
-      title: "Kursy i Projekty",
+      title: "Kursy i Szkolenia",
       opis: "",
       foto: ksiazka,
     },
     {
       id: "k3",
-      title: "Współpraca",
+      title: "Projekty",
       opis: "",
       foto: rece,
     },

@@ -11,25 +11,26 @@ const projekty = [{
     id: '1',
     title: 'Event Manager z Dronami',
     photo: dron,
-    date: "zapisy od 01.11.2022"
+    date: "zapisy wstrzymane"
 },
 {
     id: '2',
     title: 'Kurs Barmański',
     photo: bar,
-    date: "zapisy od 01.11.2022"
+    date: "zapisy trwają, sprawdź"
 },
 {
     id: '3',
     title: 'Kurst Baristyczny',
     photo: barista,
-    date: "zapisy od 01.11.2022"
+    date: "zapisy trwają, sprawdź"
 },
 {
     id: '4',
     title: 'Szkolenie - zakładanie żlobka',
     photo: zlobek,
-    date: "zapisy od 01.11.2022"
+    date: "zapisy trwają, sprawdź",
+    link: 'http://www.frr.org.pl/zlobki/'
 },
 ]
 
@@ -43,6 +44,7 @@ const ProjektyList = () => {
                     title={projekt.title}
                     photo={projekt.photo}
                     date={projekt.date}
+                    link={projekt.link}
                     />
                 </Col>
             ))}
