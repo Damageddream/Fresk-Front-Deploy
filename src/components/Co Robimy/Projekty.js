@@ -30,7 +30,7 @@ const Projekty = () => {
 
         </Col>
         <Col className='m-5'>
-          <h2 className='text-center'>Zapewniamy</h2>
+          <br />
           <br />
           <h4 className='text-center'>Organizacja szkoleń </h4>
           Nasza kadra składa się z wysoko wykwalifikowanych specjalistów, którzy posiadają szeroką wiedzę zarówno praktyczną jak i teoretyczną, są pasjonatami w danej dziedzinie i posiadają wieloletnie doświadczenie.

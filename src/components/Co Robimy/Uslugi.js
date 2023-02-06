@@ -25,7 +25,9 @@ const Uslugi = () => {
           <p>Koszt 70 zł na godzinę. </p>
         </Col>
         <Col className='m-5'>
-        <GaleriaSali />
+          <div className='mt-5'>
+            <GaleriaSali />
+          </div>
         </Col>
       </Row>
     </>

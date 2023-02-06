@@ -91,7 +91,7 @@ const Kontakt = () => {
     <Row>
       <iframe
         title="fundacja"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d292.4265278881666!2d22.932276699248796!3d54.10189596808322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e103d51a31d91f%3A0xaee2efb2565b9545!2zxbthYmth!5e0!3m2!1sen!2spl!4v1666521180233!5m2!1sen!2spl"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9357.682617757038!2d22.932121!3d54.1017465!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6d0730236e90f4d3!2sFundacja%20Rozwoju%20Edukacji%20i%20Spo%C5%82ecznej%20Kreatywno%C5%9Bci!5e0!3m2!1spl!2spl!4v1675678722371!5m2!1spl!2spl"
         width="auto"
         height="300"
         style={{ border: 0 }}

@@ -17,19 +17,19 @@ const projekty = [{
     id: '2',
     title: 'Kurs Barmański',
     photo: bar,
-    date: "zapisy trwają, sprawdź"
+    date: "zapisy trwają, (Warmińsko-Mazurskie)"
 },
 {
     id: '3',
     title: 'Kurst Baristyczny',
     photo: barista,
-    date: "zapisy trwają, sprawdź"
+    date: "zapisy trwają, (Warmińsko-Mazurskie)"
 },
 {
     id: '4',
     title: 'Szkolenie - zakładanie żlobka',
     photo: zlobek,
-    date: "zapisy trwają, sprawdź",
+    date: "zapisy trwają, (Pomorskie i Kujawsko-Pomorskie)",
     link: 'http://www.frr.org.pl/zlobki/'
 },
 ]

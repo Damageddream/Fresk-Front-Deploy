@@ -6,6 +6,7 @@ import {
   MDBCol,
   MDBIcon,
 } from "mdb-react-ui-kit";
+import { Link } from "react-router-dom";
 
 import "../sass/components/footer.css";
 const Footer = () => {
@@ -28,15 +29,15 @@ const Footer = () => {
               <h6 className="text-uppercase fw-bold mb-4">Usługi</h6>
               <p>
               <MDBIcon fas icon="hand-holding-usd" className="me-2" />
-                <a href="#!" className="text-reset">
+                <Link to={'/corobimy/uslugi'} className="text-reset">
                   Wynajem sali
-                </a>
+                </Link>
               </p>
               <p>
               <MDBIcon fas icon="book-open" className="me-2" />
-                <a href="#!" className="text-reset">
+                <Link to={'/corobimy/projekty'} className="text-reset">
                   Kursy i Szkolenia
-                </a>
+                </Link>
               </p>
             </MDBCol>
 
