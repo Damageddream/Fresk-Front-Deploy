@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ImageGallery from 'react-image-gallery';
-import sala from '../../images/sala.jpg';
 import sala1 from '../../images/sala1.jpg';
 import sala2 from '../../images/sala2.jpg';
 import sala3 from '../../images/sala3.jpg';
