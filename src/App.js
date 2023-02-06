@@ -27,12 +27,10 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/ofundacji" element={<Ofundacji />} />
-        <Route path="/corobimy">
-          <Route index element={<CoRobimy />} />
-          <Route path="/corobimy/projekty" element={<Projekty />} />
-          <Route path="/corobimy/dotacje" element={<Dotacje />} />
-          <Route path="/corobimy/uslugi" element={<Uslugi />} />
-        </Route>
+        <Route path="/projekty" element={<Projekty />} />
+        <Route path="/dotacje" element={<Dotacje />} />
+        <Route path="/uslugi" element={<Uslugi />} />
+        <Route path="/corobimy" element={<CoRobimy />} />
         <Route path="/aktualnosci">
           <Route index element={<Aktualnosci />} />
           <Route path="/aktualnosci/:id" element={<WydarzenieOsobno />} />
