@@ -35,7 +35,7 @@ function WyszukaneAktualnosci() {
     setIsLoading(true);
     axios({
       method: "GET",
-      url: "http://3.11.31.49/api/aktualnoscis/",
+      url: "https://fundacja-fresk.pl/api/aktualnoscis/",
     })
       .then((response) => {
         const data = response.data;

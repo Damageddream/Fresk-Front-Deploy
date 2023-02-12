@@ -67,9 +67,7 @@ const Footer = () => {
         style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
       >
         © 2023 Copyright:
-        <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
           Fundacja Rozwoju Edukacji i Społecznej Kreatywności
-        </a>
       </div>
     </MDBFooter>
   );

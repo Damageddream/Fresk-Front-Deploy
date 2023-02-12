@@ -28,7 +28,7 @@ function UsunWydarzenie(props) {
         setIsLoading(true);
         axios({
             method: 'DELETE',
-            url: `http://3.11.31.49/api/aktualnoscis/${props.wydarzenie}/`,
+            url: `https://fundacja-fresk.pl/api/aktualnoscis/${props.wydarzenie}/`,
         })
             .then(() => {
                 navigate('/aktualnosci')

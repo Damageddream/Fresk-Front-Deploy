@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://3.11.31.49/api/';
+const baseURL = 'https://fundacja-fresk.pl/api/';
 
 const axiosInstance = axios.create({
     baseURL: baseURL,

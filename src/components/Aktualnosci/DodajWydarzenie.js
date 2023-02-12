@@ -82,7 +82,7 @@ const DodajWydarzenie = (props) => {
 
     axios({
       method: 'POST',
-      url: 'http://3.11.31.49/api/aktualnoscis/',
+      url: 'https://fundacja-fresk.pl/api/aktualnoscis/',
       data: formForm,
       headers: {
         "Content-Type": "multipart/form-data"

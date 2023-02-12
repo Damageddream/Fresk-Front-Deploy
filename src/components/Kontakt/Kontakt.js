@@ -69,7 +69,7 @@ const Kontakt = () => {
 
     axios({
       method: 'POST',
-      url: 'http://3.11.31.49/api/contact/',
+      url: 'https://fundacja-fresk.pl/api/contact/',
       data: formForm,
       headers: {
         "Content-Type": "application/json"
