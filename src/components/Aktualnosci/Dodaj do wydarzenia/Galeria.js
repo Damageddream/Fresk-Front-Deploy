@@ -38,7 +38,7 @@ const Galeria = (props) => {
     setIsLoading(true);
     axios({
       method: "GET",
-      url: "http://3.11.31.49/api/photos/",
+      url: "https://fundacja-fresk.pl/api/photos/",
     })
       .then((response) => {
         return response.data;

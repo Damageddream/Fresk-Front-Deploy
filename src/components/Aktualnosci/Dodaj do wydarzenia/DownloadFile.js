@@ -36,7 +36,7 @@ const DownloadFile = (props) => {
     setIsLoading(true);
     axios({
       method: "GET",
-      url: "http://3.11.31.49/api/files/",
+      url: "https://fundacja-fresk.pl/api/files/",
     })
       .then((response) => {
         const data = response.data;
