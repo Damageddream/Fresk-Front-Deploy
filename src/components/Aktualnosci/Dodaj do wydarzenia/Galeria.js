@@ -20,9 +20,11 @@ const Galeria = (props) => {
     const Photos = [];
     file.map((download) => {
       if (download.wydarzenie === parseInt(props.wydarzenie)) {
+        //adding char s in after http to fix mixed-origin problem
+        const secureUrl = download.image.slice(0,4)+'s'+download.image.slice(4)
         Photos.push({
-          original: download.image,
-          thumbnail: download.image,
+          original: secureUrl,
+          thumbnail: secureUrl,
         });
       }
       setGellery(Photos);
