@@ -29,13 +29,13 @@ const Footer = () => {
               <h6 className="text-uppercase fw-bold mb-4">Usługi</h6>
               <p>
               <MDBIcon fas icon="hand-holding-usd" className="me-2" />
-                <Link to={'/corobimy/uslugi'} className="text-reset">
+                <Link to={'/uslugi'} className="text-reset">
                   Wynajem sali
                 </Link>
               </p>
               <p>
               <MDBIcon fas icon="book-open" className="me-2" />
-                <Link to={'/corobimy/projekty'} className="text-reset">
+                <Link to={'/projekty'} className="text-reset">
                   Kursy i Szkolenia
                 </Link>
               </p>

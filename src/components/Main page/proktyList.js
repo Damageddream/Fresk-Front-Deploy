@@ -8,29 +8,36 @@ import zlobek from "../../images/zlobek.jpg"
 
 
 const projekty = [{
-    id: '1',
+    id: '3',
     title: 'Event Manager z Dronami',
     photo: dron,
-    date: "zapisy wstrzymane"
+    date: "zapisy wstrzymane",
+    inside: null
+},
+{
+    id: '1',
+    title: 'Kurs Barmański',
+    photo: bar,
+    date: "zapisy trwają, (Warmińsko-Mazurskie)",
+    link: "/aktualnosci/2",
+    inside: true
+
 },
 {
     id: '2',
-    title: 'Kurs Barmański',
-    photo: bar,
-    date: "zapisy trwają, (Warmińsko-Mazurskie)"
-},
-{
-    id: '3',
     title: 'Kurst Baristyczny',
     photo: barista,
-    date: "zapisy trwają, (Warmińsko-Mazurskie)"
+    date: "zapisy trwają, (Warmińsko-Mazurskie)",
+    link: "/aktualnosci/1",
+    inside: true
 },
 {
     id: '4',
     title: 'Szkolenie - zakładanie żlobka',
     photo: zlobek,
     date: "zapisy trwają, (Pomorskie i Kujawsko-Pomorskie)",
-    link: 'http://www.frr.org.pl/zlobki/'
+    link: 'http://www.frr.org.pl/zlobki/',
+    inside: false
 },
 ]
 
@@ -45,6 +52,8 @@ const ProjektyList = () => {
                     photo={projekt.photo}
                     date={projekt.date}
                     link={projekt.link}
+                    inside={projekt.inside}
+                    id={projekt.id}
                     />
                 </Col>
             ))}
