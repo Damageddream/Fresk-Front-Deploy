@@ -53,7 +53,7 @@ const WydarzenieOsobno = () => {
   }, [editedWydarzenie]);
 
 
-  let locationId = location.pathname.slice(13);
+  let locationId = location.pathname.slice(1);
 
   function getAktulanosci() {
     setIsLoading(true);
@@ -64,7 +64,6 @@ const WydarzenieOsobno = () => {
       .then((response) => {
         const data = response.data;
         setNewAktualnosci(data);
-        console.log('hi')
       })
       .catch((error) => {
         if (error.response) {

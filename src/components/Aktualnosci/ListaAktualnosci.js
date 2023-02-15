@@ -82,7 +82,7 @@ function ListaAktualnosci() {
           {isLoading && <p>Trwa pobieranie aktualności</p>}
 
           {!isLoading && aktualnosci.length === 0 && !error && (
-            <p>Brak Aktualności</p>
+            <p className='text-center mt-5'>Brak Aktualności</p>
           )}
 
           {!isLoading && error && <p>Wystąpił błąd: {error}</p>}
