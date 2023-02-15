@@ -142,7 +142,7 @@ const Ofundacji = () => {
             </ListGroup.Item>
           </ListGroup>
         </Col>
-        <Col xs={8} className="mt-5">
+        <Col xs={8} className="mt-5 me-5">
           <div className='text-center'>
             {isActiveo && <h2 className='text-center mb-4'>FUNDACJA ROZWOJU EDUKACJI I SPOŁECZNEJ KREATYWNOŚCI</h2>}
           </div>

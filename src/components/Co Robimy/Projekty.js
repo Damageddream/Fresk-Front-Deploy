@@ -30,15 +30,18 @@ const Projekty = () => {
 
         </Col>
         <Col className='m-5'>
-          <br />
-          <br />
+          <div className='mb-4'>
           <h4 className='text-center'>Organizacja szkoleń </h4>
           Nasza kadra składa się z wysoko wykwalifikowanych specjalistów, którzy posiadają szeroką wiedzę zarówno praktyczną jak i teoretyczną, są pasjonatami w danej dziedzinie i posiadają wieloletnie doświadczenie.
+          </div>
+          <div className='mb-4'>
           <h4 className='text-center'>Lokalizacja</h4>
-          Lokalizacja
           Organizujemy szkolenia na szczególnie na terenie województw: Podlaskiego i Warmińsko-Mazurskiego, ale w razie indywidualnych potrzeb możemy organizować je na terenie całej Polski.
+          </div>
+          <div className='mb-4'>
           <h4 className='text-center'>W ramach indywidualnych potrzeb</h4>
           Organizujemy szkolenia zarówno stacjonarne jak i zdalne, posiadamy własną salę szkoleniową, oraz sprzęt do szkoleń, który w ramach potrzeb dowieziemy i doślemy w wybrane przez klienta miejsce.
+          </div>
 
         </Col>
       </Row>
