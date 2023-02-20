@@ -21,7 +21,7 @@ const ProfilWiadomosci = () => {
         setIsLoading(true);
         axios({
             method: 'GET',
-            url: "http://3.11.31.49/api/contact/",
+            url: "https://fundacja-fresk.pl/api/contact/",
         })
             .then((response) => {
                 const data = response.data;
