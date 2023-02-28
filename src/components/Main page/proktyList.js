@@ -15,7 +15,7 @@ const projekty = [{
     inside: null
 },
 {
-    id: '1',
+    id: '2',
     title: 'Kurs Barmański',
     photo: bar,
     date: "zapisy trwają, (Warmińsko-Mazurskie)",
@@ -24,7 +24,7 @@ const projekty = [{
 
 },
 {
-    id: '2',
+    id: '1',
     title: 'Kurst Baristyczny',
     photo: barista,
     date: "zapisy trwają, (Warmińsko-Mazurskie)",
