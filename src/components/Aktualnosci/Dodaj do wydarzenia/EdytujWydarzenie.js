@@ -5,14 +5,11 @@ import Form from "react-bootstrap/Form";
 import RichText from "../../Utilities/RichText";
 import "../../Utilities/RichText.css";
 import axios from "axios";
-import { useNavigate} from "react-router-dom";
 import Alert from 'react-bootstrap/Alert';
 
 const EdytujWydarzenie = (props) => {
 
   
-  //hook for redirecitng after login
-  let navigate = useNavigate();
 
   //state for showing - hidding modal
   const [show, setShow] = useState(false);

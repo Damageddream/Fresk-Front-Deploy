@@ -2,7 +2,7 @@ import axios from "axios";
 import {
     MDBIcon,
 } from "mdb-react-ui-kit";
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 
 
