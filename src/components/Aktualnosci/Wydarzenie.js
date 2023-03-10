@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import Image from 'react-bootstrap/Image'
 
 function Wydarzenie(props) {
+  
   //cleaning up data formating
   const formatDate = Moment(props.date).format("DD.MM.YYYY");
 

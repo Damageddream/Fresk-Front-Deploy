@@ -1,8 +1,14 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import axios from "axios";
 import DeleteFile from "./UsunPlik";
+import AuthContext from "../../Utilities/Context";
 
 const DownloadFile = (props) => {
+
+  //context for for checking if user is logged in
+  const authCtx = useContext(AuthContext);
+  const isLoggedIn = authCtx.isLoggedIn;
+
   // states for storing files to download and loading state and errors
   const [file, setFile] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -59,7 +65,7 @@ const DownloadFile = (props) => {
                   <a href={download.file} className="me-3">
                     {download.file_name}
                   </a>
-                  <DeleteFile file={download.id} getFiles={getFiles} />
+                  {isLoggedIn && <DeleteFile file={download.id} getFiles={getFiles} />}
                 </li>
               );
             })}
